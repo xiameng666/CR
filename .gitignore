@@ -1,4 +1,23 @@
+# VS 文件
 .vs/
-.vs/
-*.ipch /c/Users/XiaMeng
+*.ipch
+*.pdb
+*.obj
+*.exe
+*.ilk
+*.log
+Debug/
+Release/
+x64/
+x86/
+
+# 临时文件
+*.tmp
+*.temp
 *.rar
+*.zip
+
+# IDE 配置
+*.suo
+*.user
+*.sln.docstates

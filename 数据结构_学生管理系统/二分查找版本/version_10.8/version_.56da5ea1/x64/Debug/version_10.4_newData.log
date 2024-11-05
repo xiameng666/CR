@@ -1,0 +1,19 @@
+﻿  CMyString.cpp
+E:\科锐作业\数据结构_学生管理系统\version_10.8\CMyString.cpp(16,27): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\科锐作业\数据结构_学生管理系统\version_10.8\CMyString.cpp(95,17): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\科锐作业\数据结构_学生管理系统\version_10.8\CMyString.cpp(154,27): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\科锐作业\数据结构_学生管理系统\version_10.8\CMyString.cpp(166,31): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  Course.cpp
+  Grade.cpp
+  main.cpp
+  Student.cpp
+  StudentManagementSystem.cpp
+E:\科锐作业\数据结构_学生管理系统\version_10.8\StudentManagementSystem.cpp(575,28): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\科锐作业\数据结构_学生管理系统\version_10.8\StudentManagementSystem.cpp(597,27): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\科锐作业\数据结构_学生管理系统\version_10.8\StudentManagementSystem.cpp(619,26): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\科锐作业\数据结构_学生管理系统\version_10.8\StudentManagementSystem.cpp(825,24): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\科锐作业\数据结构_学生管理系统\version_10.8\StudentManagementSystem.cpp(826,23): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\科锐作业\数据结构_学生管理系统\version_10.8\StudentManagementSystem.cpp(827,22): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  UserInterface.cpp
+  正在生成代码...
+  version_10.4_newData.vcxproj -> E:\科锐作业\数据结构_学生管理系统\version_10.8\x64\Debug\version_10.4_newData.exe

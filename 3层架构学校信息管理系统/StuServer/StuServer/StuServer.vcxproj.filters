@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="db">
+      <UniqueIdentifier>{3fcf66bb-34b5-4cbe-8a27-9064942f8479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="请求实体">
+      <UniqueIdentifier>{b99949ae-8a56-46fc-a9fb-0f39ea240679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="接口">
+      <UniqueIdentifier>{13cbdcf9-173f-487b-8cdd-f46d14db560f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="类工厂">
+      <UniqueIdentifier>{8350cc1a-b894-4431-a2b4-2b45b76a75b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="服务器类请求实体">
+      <UniqueIdentifier>{dd405bfd-8195-4f67-aeef-3f72a6b244f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="线程池run重写">
+      <UniqueIdentifier>{cb57b251-4ce8-4ea5-83f9-9d50b0fc89c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StuServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentDB.cpp">
+      <Filter>db</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageTask.cpp">
+      <Filter>线程池run重写</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IDatabase.h">
+      <Filter>db</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentDB.h">
+      <Filter>db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\LoginRequest.h">
+      <Filter>请求实体</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageTask.h">
+      <Filter>线程池run重写</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\StudentRequest.h">
+      <Filter>请求实体</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\CourseRequest.h">
+      <Filter>请求实体</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ClassRequest.h">
+      <Filter>请求实体</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\SelectionRequest.h">
+      <Filter>请求实体</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IRequest.h">
+      <Filter>接口</Filter>
+    </ClInclude>
+    <ClInclude Include="IServerRequest.h">
+      <Filter>接口</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerRequestFactory.h">
+      <Filter>类工厂</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerLoginRequest.h">
+      <Filter>服务器类请求实体</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerStudentRequest.h">
+      <Filter>服务器类请求实体</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerClassRequest.h">
+      <Filter>服务器类请求实体</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerCourseRequest.h">
+      <Filter>服务器类请求实体</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerSelectionRequest.h">
+      <Filter>服务器类请求实体</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\HeartbeatRequest.h">
+      <Filter>请求实体</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerHeartbeatRequest.h">
+      <Filter>服务器类请求实体</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

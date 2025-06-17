@@ -1,0 +1,32 @@
+g 
+u 
+p 
+u 
+bp 0040729c
+bp 004072a4
+bl s
+g 
+bc s 0
+bc s 1
+bc s 2
+g 
+u 
+t 
+t 
+t 
+u 
+bh 0 0 00401f66
+bl h
+g 
+u 
+g 
+u 
+bc h 0
+a 
+a ecx 00000010
+bh 3 3 00433d40
+g 
+bl h
+bc h 0
+a 
+bm r 1 00433de0
